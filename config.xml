@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "bby261.burcukaramanlioglu.KATALG"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>Katalog</name>
+
+    <description>
+        Katolag uygulaması
+    </description>
+
+    <author>
+       Burcu Karamanlıoğlu
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+        
+    <!-- İkon -->
+     
+    <icon src="icon.png" />
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>

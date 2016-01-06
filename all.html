@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kitaplar</title>
+<meta charset="utf-8"/>
+<script src="database.js"></script>
+</head>
+    <style>
+    
+            body { 
+                background-image:url(background.jpg);
+    background-color: #cccccc;
+            }
+   
+    </style>
+<body>
+    <h1 style="color:white;">Kitaplar</h1>
+    <p><a href="index.html">Ana Menüye Dön</a></p>
+    <p id="goster"></p>
+<script>
+    for(var i=0; i<14; i++){
+document.getElementById("goster").innerHTML += "<p>" +"<img src='" + catalog[i].itemImage + "' height='125' width='85'/><br>" + "<strong>" + catalog[i].itemName + "</strong><br>" + catalog[i].itemAuthor + "<br>" + catalog[i].itemCreationDate + "<br>" + catalog[i].itemDescription + "</p>";
+}
+
+</script>
+   
+    
+        
+</body>
+</html>

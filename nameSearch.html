@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Kitap Araması</title>
+    <script type="text/javascript" src="database.js"></script>
+</head>
+    <style>
+    
+            body { 
+                background-image:url(background.jpg);
+    background-color: #cccccc;
+            }
+   
+    </style>
+<body>
+<center>   
+  
+<h3 style="color:white;">Lütfen Aradığınız Kitabın Adını Giriniz</h3>    
+     
+<form id="text">
+    <input type="text" id="yazi" autofocus maxlength="15" size="40" />
+</form> 
+    <button onclick="tara()">ARA</button>
+    <button class="buton" onclick="location.reload();">Yeni Arama</button>
+    <p><a href="index.html">Ana Menüye Dön</a></p>
+ </center> 
+<script>
+    
+function tara()
+{    
+    var gelen = document.getElementById("yazi").value;
+    
+for(var i=0;i<5;i++)
+{
+    
+    
+        if(catalog[i].itemName.toLowerCase().indexOf(gelen.toLowerCase())!=-1)
+    {
+   document.getElementById("sonuc").innerHTML += "<p>" +"<img src='" + catalog[i].itemImage + "' height='125' width='85'/><br>" + "<strong>" + catalog[i].itemName + "</strong><br>" + 
+     catalog[i].itemAuthor + "<br>" + "<br>"  + 
+     catalog[i].itemDescription + "<br>" + "Yayın Yılı: " + catalog[i].itemCreationDate + "<hr>" + "</p>";     
+    }
+     
+}
+}
+</script>    
+<p id="sonuc"></p>    
+      
+</body>
+
+</html>
