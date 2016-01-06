@@ -41,9 +41,57 @@ var catalog = [
         "itemAuthor": "Dan Brown",
         "itemimage": "image/image6.jpg",
         "itemCreationDate":"2015",
-        "itemDescription":"<pSion Tarikatı - 1099 yılında kurulmuş olan gizil Avrupa cemiyeti - gerçek bir topluluktur. 1975 yılında Parisin Milli Kütüphanesi, Sir Isaac Newton, Botticelli, Victor Hugo ve Leonardo da Vinci de dahil olmak üzere, Sion Tarikatının sayısız üyelerinin isimlerini içeren, Les Dossiers Secrets diye bilinen parşömenleri ortaya çıkarmıştı Bu romanda bahsi geçen tüm sanat eserleri, mimari yapılar, belgeler ve gizli ayinler gerçektir.</p>",
+        "itemDescription":"<p>Sion Tarikatı - 1099 yılında kurulmuş olan gizil Avrupa cemiyeti - gerçek bir topluluktur. 1975 yılında Parisin Milli Kütüphanesi, Sir Isaac Newton, Botticelli, Victor Hugo ve Leonardo da Vinci de dahil olmak üzere, Sion Tarikatının sayısız üyelerinin isimlerini içeren, Les Dossiers Secrets diye bilinen parşömenleri ortaya çıkarmıştı Bu romanda bahsi geçen tüm sanat eserleri, mimari yapılar, belgeler ve gizli ayinler gerçektir.</p>",
     
     },
+    {
+        "itemName": 'Yeni Başlayanlar İçin Java',
+        "itemAuthor": 'Mehmet Kirazlı',
+        "itemimage": 'image/image7.jpg',
+        "itemCreationDate": '2015',
+        "itemDescription": '<p>Java programlama dili; platformdan bağımsız olarak çalışması, nesneye yönelik olması, güvenliği ön planda tutması, esnek olması ve daha bunun gibi birçok artıları ile tercih edilen bir dil olmuştur ve olmaya da devam edecektir. Bu yüzdendir ki Java yı geliştiren Sun Microsystems firmasını satın alan Oracle, Java nın bu üstünlüklerini keşfetmiş ve Java yı bünyesine katmıştır. Java nın en önemli faydası ise her işletim sisteminde çalışmasıdır.</p>',
+        
+       
+    },
+    {
+        "itemName": 'Soğuk Kahve',
+        "itemAuthor": 'Ahmet Batman',
+        "itemimage": 'image/image8.jpg',
+        "itemCreationDate": '2015',
+        "itemDescription": '<p>Sıcacık bir kahveden yükselen güzel kokular eşliğinde keyifli bir okuma vaat ediyor Soğuk Kahve.</p>',
+       
+        
+    },
+    
+    {
+        "itemName": 'Şüpheli Kimlikler',
+        "itemAuthor": 'Simon Cole ',
+        "itemimage": 'image/image9.jpg',
+        "itemCreationDate": '2015',
+        "itemDescription": '<p>İlk mahkeme salonuna çıkışandan beri parmak izleri, suçluları saptamakta şüphe götürmez kesinlik içeren bir şöhrete sahip oldu. Suç mahallinde bulunan parmak izleriyle uyuşan parmak izlerine sahip bir şüpheliyi hangi jüri serbest bırakır?...Simon Cole..forensik bilimine bilimsel statü kazandıran bu teknik üzerinde çalışan küçük bir grup araştırmacıdan biri..Çalışması, beklenmedik bir biçimde parmak izi yönteminin bilimsel ve istatistiksel eksiklerini ortaya çıkarıyor.</p>',
+        
+        
+    },
+     {
+        "itemName": 'Empati',
+        "itemAuthor": 'Adam Fawer',
+        "itemimage": 'image/image10.jpg',
+         "itemCreationDate": '2013',
+        "itemDescription": '<p>Yaşamınızın kontrolü sizde değil!Öyle olduğunu düşünebilirsiniz, ama yanılıyorsunuz.Elbette ki kendi kararlarınızı kendiniz vermekte özgürsünüz.Bu kitabı kapatabilirsiniz.O sandalyede oturmaya devam edebilirsiniz.Ya da gözlerinizi oymak gibi çılgınca bir şey yapabilirsiniz.Ne isterseniz yapabilirsiniz.Ama sorun şurada: Ne isteyeceğinizi kontrol edemezsiniz.Her davranışınızı önceden belirleyen arzularınız ruhunuzun okadar derinlerine işlemiştir ki, onlara dikkat bile etmezsiniz.</p>',
+        
+        
+    },
    
+    {
+        "itemName": 'Kıvılcım Sahili',
+        "itemAuthor": 'Debbie Macomber ',
+        "itemimage": 'image/image11.jpg',
+        "itemCreationDate": '2012',
+        "itemDescription": '<p>Hayatta her zaman iyi şeyler olmaz, kötü günler geldiğinde yaşam kıvılcımlarınla içindeki umudu canlı tut...</p>',
+        
+        
+    },
+    
+    
     
 ];
